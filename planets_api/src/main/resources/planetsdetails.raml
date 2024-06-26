@@ -1,0 +1,70 @@
+#%RAML 1.0
+
+title: Planets Api
+
+/planets:
+  get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: [
+    {
+      "id": 1,
+      "name": "Mercury",
+      "numberOfMoons": 0,
+      "diameter": 4879,
+      "distanceFromSun": 57910000
+    },
+    {
+      "id": 2,
+      "name": "Venus",
+      "numberOfMoons": 0,
+      "diameter": 12104,
+      "distanceFromSun": 108200000
+    },
+    {
+      "id": 3,
+      "name": "Earth",
+      "numberOfMoons": 1,
+      "diameter": 12742,
+      "distanceFromSun": 149600000
+    },
+    {
+      "id": 4,
+      "name": "Mars",
+      "numberOfMoons": 2,
+      "diameter": 6779,
+      "distanceFromSun": 227900000
+    },
+    {
+      "id": 5,
+      "name": "Jupiter",
+      "numberOfMoons": 79,
+      "diameter": 139820,
+      "distanceFromSun": 778500000
+    },
+    {
+      "id": 6,
+      "name": "Saturn",
+      "numberOfMoons": 83,
+      "diameter": 116460,
+      "distanceFromSun": 1434000000
+    },
+    {
+      "id": 7,
+      "name": "Uranus",
+      "numberOfMoons": 27,
+      "diameter": 50724,
+      "distanceFromSun": 2871000000
+    },
+    {
+      "id": 8,
+      "name": "Neptune",
+      "numberOfMoons": 14,
+      "diameter": 49244,
+      "distanceFromSun": 4495000000
+    }
+  ]
+                
+ 
